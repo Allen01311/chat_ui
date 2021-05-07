@@ -51,7 +51,9 @@ class RecentChats extends StatelessWidget {
                       onTap: () {
                         Navigator.push(context,
                             CupertinoPageRoute(builder: (context) {
-                          return ChatRoom();
+                          return ChatRoom(
+                            user: recentChat.sender,
+                          );
                         }));
                       },
                       child: Column(

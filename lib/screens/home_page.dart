@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           onPressed: () {},
           icon: Icon(Icons.menu),
         ),
+        centerTitle: true,
         title: Text(
           'Paclub',
           style: MyTheme.kAppTitle,
@@ -104,4 +105,3 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     );
   }
 }
-
