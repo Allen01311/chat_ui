@@ -38,8 +38,8 @@ class Conversation extends StatelessWidget {
                         padding: EdgeInsets.all(10),
                         constraints: BoxConstraints(
                             maxWidth: MediaQuery.of(context).size.width * 0.6),
-                        color: isMe ? MyTheme.kAccentColor : Colors.grey[200],
                         decoration: BoxDecoration(
+                          color: isMe ? MyTheme.kAccentColor : Colors.grey[200],
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(16),
                             topRight: Radius.circular(16),

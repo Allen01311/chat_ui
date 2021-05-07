@@ -25,6 +25,7 @@ class _ChatRoomState extends State<ChatRoom> {
               backgroundImage: AssetImage(widget.user.avatar),
             ),
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   widget.user.name,
@@ -63,7 +64,6 @@ class _ChatRoomState extends State<ChatRoom> {
             Expanded(
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 20),
-                height: 100,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
